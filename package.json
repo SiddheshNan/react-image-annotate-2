@@ -1,6 +1,6 @@
 {
   "name": "react-image-annotate-2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "type": "module",
   "dependencies": {
@@ -12,6 +12,8 @@
     "cash-dom": "^8.1.5",
     "classnames": "^2.3.2",
     "color-alpha": "^1.0.4",
+    "eslint-config-react-app": "^7.0.1",
+    "lodash": "^4.17.21",
     "lodash.debounce": "^4.0.8",
     "material-survey": "^2.1.0",
     "moment": "^2.29.4",
@@ -44,15 +46,11 @@
     "extends": "react-app"
   },
   "devDependencies": {
-    "vite-raw-plugin": "^1.0.2",
-    "@semantic-release/git": "^9.0.0",
-    "@storybook/react": "^7.5.2",
     "@vitejs/plugin-react": "^4.1.0",
-    "gh-pages": "^2.0.1",
-    "prettier": "^2.5.1",
     "react-github-btn": "^1.1.1",
     "vite": "^4.5.0",
-    "vite-plugin-node-polyfills": "^0.15.0"
+    "vite-plugin-node-polyfills": "^0.15.0",
+    "vite-raw-plugin": "^1.0.2"
   },
   "prettier": {
     "semi": false
